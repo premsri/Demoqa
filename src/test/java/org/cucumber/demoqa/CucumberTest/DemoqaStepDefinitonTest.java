@@ -39,5 +39,6 @@ public class DemoqaStepDefinitonTest extends BaseClass {
 		Assert.assertEquals("prem", demo.getFirstName().getAttribute("value"));
 		Assert.assertEquals("kumar",demo.getLastName().getAttribute("value"));
 		driverQuit(driver);	
+		System.out.println("succesfull verifed");
 	}
 }
