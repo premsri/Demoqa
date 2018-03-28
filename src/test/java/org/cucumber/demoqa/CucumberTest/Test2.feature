@@ -1,6 +1,6 @@
 Feature: Test Hooks
 
-  @first
+  @second
   Scenario Outline: Enter firstname and lastname
     Given User in Demoqa page
     When User enters "<firstname>" and "<lastName>"
@@ -8,5 +8,5 @@ Feature: Test Hooks
 
     Examples: 
       | firstname | lastName |
-      | vadivel   | a1        |
-      | praveen   | b1        |
+      | vadivel   | a2        |
+      | praveen   | b2       |

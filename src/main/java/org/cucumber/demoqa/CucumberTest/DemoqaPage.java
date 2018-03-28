@@ -11,8 +11,7 @@ public class DemoqaPage extends BaseClass{
 	 public DemoqaPage() {
 		
 		PageFactory.initElements(driver, this);
-	}
-	 
+	} 
 	 
 	@FindBy(id="name_3_firstname")
 	private WebElement firstName;

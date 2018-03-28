@@ -1,16 +1,14 @@
 package org.cucumber.demoqa.CucumberTest;
 
 import org.base.BaseClass;
-import org.junit.Assert;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class DemoqaStepDefinitonTest extends BaseClass {
+public class DemoqaStepDefinitonTest {
 	
-	public static DemoqaPage demo = null;
+/*	public static DemoqaPage demo = null;
 	public DemoqaPage get() {
 		if (demo==null) {
 			demo = new DemoqaPage();
@@ -20,7 +18,7 @@ public class DemoqaStepDefinitonTest extends BaseClass {
 	
 	@Given("^User in Demoqa page$")
 	public void user_in_Demoqa_page() {
-		launchBrowser("chrome", "http://demoqa.com/registration/");
+		//launchBrowser("chrome", "http://demoqa.com/registration/");
 	}
 
 	@When("^User enters firstname$")
@@ -39,5 +37,6 @@ public class DemoqaStepDefinitonTest extends BaseClass {
 		Assert.assertEquals("prem", demo.getFirstName().getAttribute("value"));
 		Assert.assertEquals("kumar",demo.getLastName().getAttribute("value"));
 		driverQuit(driver);	
-	}
+	}*/
+		
 }

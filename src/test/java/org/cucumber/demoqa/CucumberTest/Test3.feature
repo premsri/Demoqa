@@ -1,6 +1,7 @@
+@tag
 Feature: Test Hooks
 
-  @first
+  @third @tag1
   Scenario Outline: Enter firstname and lastname
     Given User in Demoqa page
     When User enters "<firstname>" and "<lastName>"
@@ -8,5 +9,6 @@ Feature: Test Hooks
 
     Examples: 
       | firstname | lastName |
-      | vadivel   | a1        |
-      | praveen   | b1        |
+      | vadivel   | a3       |
+      | praveen   | b3       |
+
